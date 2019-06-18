@@ -8,7 +8,7 @@ def testimine(ennustatud_lemmade_fail, õiged):
         if len(el) > 1 and el[0] != '#':
             õigedlemmad.append(el.split('\t')[2].replace('=','').replace('_','').replace('-',''))
     ennustatudlemmad = []
-    for el in turku:
+    for el in ennustatud:
         if len(el) > 1 and el[0] != '#':
             ennustatudlemmad.append(el.split('\t')[2].replace('=','').replace('_','').replace('-',''))
     score = 0
